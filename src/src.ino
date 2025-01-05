@@ -1,9 +1,9 @@
 #include <Arduino.h>
 
 // Definição dos pinos
-#define PINO_SENSOR = A1;
-#define PINO_PUSH_BUTTON = 2;
-#define PINO_LED = 3;
+#define PINO_SENSOR A1
+#define PINO_PUSH_BUTTON 2
+#define PINO_LED 3
 
 // Declara variaveis para marcação do horario dos sensores
 unsigned long tempo_inicio_leitura;
